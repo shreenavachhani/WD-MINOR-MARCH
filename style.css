@@ -31,14 +31,11 @@ body{font-family: 'Roboto', sans-serif;}
       font-style:inherit;
       font-weight: bold;
   }
-  #aboutus{
-     
-      border-radius: 10px;
-  }
   .aboutus{
       display: inline-block;
       float:right;
       padding: 3px;
+      border-radius: 10px;
   }
  .cardbody{
      width: 33px;
@@ -79,4 +76,10 @@ input[type=text], select, textarea {
   .button{
       background-color: rgb(33, 85, 87);
       color:black;
+  }
+  #scroll-transition-about-us{
+    scroll-behavior: smooth;
+  }
+  #scroll-transition-contact-us{
+    scroll-behavior: smooth;
   }
